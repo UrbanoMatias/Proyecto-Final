@@ -1,0 +1,39 @@
+// Reset
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+// Reset
+
+//Import
+@import "components/body";
+@import "components/header";
+@import "components/carouselDT";
+@import "components/seccion";
+@import "components/formulario";
+@import "components/footer";
+@import "base/condicion";
+@import "base/maps";
+@import "base/query";
+@import "base/mixin";
+//Import
+
+// Font face
+@font-face {
+    font-family: "Cinzel";
+    src: url("/scss/Fuentes/Cinzel/Cinzel-VariableFont_wght.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/scss/Fuentes/Montserrat/Montserrat-Italic.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "Dancing";
+    src: url("/scss/Fuentes/Dancing/DancingScript-VariableFont_wght.ttf") format("ttf");
+}
+// Font face
+
+

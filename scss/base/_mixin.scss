@@ -1,0 +1,35 @@
+@mixin titulos ($size, $margin, $font) {
+    font-family: $font;
+    margin: $margin;
+    font-size: $size;
+    text-align: center;
+    font-weight: bold;
+
+}
+h1 {
+    @include titulos(20px, auto , 'Dancing Script');
+       
+    }
+
+h2 {
+    @include titulos(2em, 100px auto, "Cinzel");
+    text-decoration: underline;
+    padding-bottom: 70px;
+}
+p {
+    font-family: "Montserrat";
+    font-size: 1em;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.parrafo {
+    padding-top: 20px;
+    word-spacing: 5px;
+    margin: auto;
+    width: 100%;
+    height: 200%;
+    color: white;
+    background-color: #2d2d2d;
+    border-radius: 2%;
+    box-shadow: -10px -10px 9px -1px #000000;
+}

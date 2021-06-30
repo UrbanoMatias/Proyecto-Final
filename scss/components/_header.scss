@@ -1,0 +1,24 @@
+/* Header */
+.header {
+    background-color: #f8d7c8;
+    height: 75px;
+    position: relative;	
+    box-shadow: inset -1px -4px 12px -4px #000000;
+    .navbar {
+        ul {
+            li {
+                a, .bg-color {
+                    color: black;
+                    font-family: "Cinzel";
+                    font-size: 1em;
+                    font-weight: bold;
+                    background-color: #f8d7c8;
+                    
+                }
+            }
+        }
+    }
+}
+/* Header */
+
+ 

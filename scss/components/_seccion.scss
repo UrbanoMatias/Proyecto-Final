@@ -1,0 +1,43 @@
+/*Primera seccion*/
+
+@mixin condicion ($border) {
+    border-radius: $border;
+    
+    @if $border == 46px {
+        background-color: #2d2d2d;
+    } @else {
+        background-color: #f8d7c8;
+    }
+}
+
+ .seccion {
+    @include condicion(46px);
+    div {
+        div{
+           color: white;
+        }
+        .photo {
+           box-shadow: -10px -10px 9px -1px #000000;
+           border-radius: 10%;
+        }
+        .photos {
+            background-color: #f8d7c8;
+        }
+    }
+}
+.seccion-dos {
+    @include condicion(45px);
+    div {
+        div{
+           color: black;
+        }
+        .photo {
+           box-shadow: -10px -10px 9px -1px #000000;
+           border-radius: 10%;
+        }
+        .photos {
+            background-color: #f8d7c8;
+        }
+    }
+}
+/*Primera seccion*/
