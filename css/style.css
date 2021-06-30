@@ -199,6 +199,20 @@ body {
   background: #f29718;
 }
 
+.recetasM {
+  background-color: #2d2d2d;
+  border-radius: 5px;
+}
+.recetasM h3 {
+  color: #f8d7c8;
+}
+.recetasM div h2, .recetasM div h4, .recetasM div h5, .recetasM div ul, .recetasM div p {
+  color: #f8d7c8;
+}
+.recetasM div img {
+  border-radius: 5px;
+}
+
 /* Footer y Redes sociales*/
 .container-footer {
   width: 100%;
