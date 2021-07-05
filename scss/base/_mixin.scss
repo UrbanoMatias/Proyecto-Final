@@ -8,13 +8,37 @@
 }
 h1 {
     @include titulos(20px, auto , 'Dancing Script');
-       
     }
 
 h2 {
     @include titulos(2em, 100px auto, "Cinzel");
     text-decoration: underline;
-    padding-bottom: 70px;
+}
+.eventosT {
+    @include titulos(2em, auto, "Montserrat");
+    padding: 40px;
+    color: white;
+    text-decoration: none;
+}
+.eventosT2 {
+    @include titulos(1em, auto, "Cinzel");
+    padding: 40px;
+    color: white;
+    text-decoration: none;
+}
+.eventosT3 {
+    @include titulos(1em, auto, "Cinzel");
+    padding: 40px;
+    color: white;
+    text-decoration: none;
+}
+.eventosPt {
+    @include titulos (1em, auto, "Montserrat");
+    color: #f8d7c8;
+}
+.eventosPt2 {
+    @include titulos (12px, auto, "Montserrat");
+    color: #f8d7c8;
 }
 p {
     font-family: "Montserrat";
@@ -32,4 +56,7 @@ p {
     background-color: #2d2d2d;
     border-radius: 2%;
     box-shadow: -10px -10px 9px -1px #000000;
+}
+.parrafoNH {
+    line-height: 35px;
 }

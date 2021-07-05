@@ -28,21 +28,44 @@ body {
   background-color: #f8d7c8;
 }
 
+@media only screen and (max-width: 991px) {
+  .logo1 {
+    display: none;
+  }
+}
 /* Header */
+.banner {
+  margin-bottom: 100px;
+  width: 100%;
+}
+.banner img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+  .banner {
+    margin-bottom: 50px;
+  }
+}
+.eventos {
+  background-color: #2d2d2d;
+  border-radius: 20px;
+}
+
 .content-all {
-  width: 210px;
+  width: 600px;
   margin: auto;
-  perspective: 1000px;
+  perspective: 2000px;
   position: relative;
   display: flex;
   align-items: center;
-  margin-top: 50px;
-  margin-bottom: 200px;
+  margin-top: 100px;
+  margin-bottom: 400px;
 }
 .content-all .content-carousel {
   width: 100%;
   position: absolute;
-  animation: rotar 10s infinite linear;
+  animation: rotar 20s infinite linear;
   transform-style: preserve-3d;
 }
 .content-all .content-carousel:hover {
@@ -50,7 +73,7 @@ body {
 }
 .content-all .content-carousel figure {
   width: 100%;
-  height: 120px;
+  height: 300px;
   overflow: hidden;
   position: absolute;
   box-shadow: 0px 0px 20px 0px black;
@@ -63,27 +86,15 @@ body {
   transform: rotateY(0deg) translateZ(300px);
 }
 .content-all .content-carousel figure:nth-child(2) {
-  transform: rotateY(45deg) translateZ(300px);
-}
-.content-all .content-carousel figure:nth-child(3) {
   transform: rotateY(90deg) translateZ(300px);
 }
-.content-all .content-carousel figure:nth-child(4) {
-  transform: rotateY(135deg) translateZ(300px);
-}
-.content-all .content-carousel figure:nth-child(5) {
+.content-all .content-carousel figure:nth-child(3) {
   transform: rotateY(180deg) translateZ(300px);
 }
-.content-all .content-carousel figure:nth-child(6) {
-  transform: rotateY(225deg) translateZ(300px);
-}
-.content-all .content-carousel figure:nth-child(7) {
+.content-all .content-carousel figure:nth-child(4) {
   transform: rotateY(270deg) translateZ(300px);
 }
-.content-all .content-carousel figure:nth-child(8) {
-  transform: rotateY(315deg) translateZ(300px);
-}
-.content-all .content-carousel figure:nth-child(9) {
+.content-all .content-carousel figure:nth-child(5) {
   transform: rotateY(360deg) translateZ(300px);
 }
 .content-all .content-carousel figure .imgC {
@@ -91,7 +102,6 @@ body {
   transition: all 300ms;
 }
 .content-all .content-carousel figure .imgC:hover {
-  transform: scale(1.2);
   transition: all 300ms;
 }
 
@@ -290,11 +300,6 @@ body {
   background: black;
 }
 
-@media only screen and (max-width: 968px) {
-  .logo1 {
-    display: none;
-  }
-}
 h1 {
   font-family: "Dancing Script";
   margin: auto;
@@ -310,7 +315,57 @@ h2 {
   text-align: center;
   font-weight: bold;
   text-decoration: underline;
-  padding-bottom: 70px;
+}
+
+.eventosT {
+  font-family: "Montserrat";
+  margin: auto;
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+  padding: 40px;
+  color: white;
+  text-decoration: none;
+}
+
+.eventosT2 {
+  font-family: "Cinzel";
+  margin: auto;
+  font-size: 1em;
+  text-align: center;
+  font-weight: bold;
+  padding: 40px;
+  color: white;
+  text-decoration: none;
+}
+
+.eventosT3 {
+  font-family: "Cinzel";
+  margin: auto;
+  font-size: 1em;
+  text-align: center;
+  font-weight: bold;
+  padding: 40px;
+  color: white;
+  text-decoration: none;
+}
+
+.eventosPt {
+  font-family: "Montserrat";
+  margin: auto;
+  font-size: 1em;
+  text-align: center;
+  font-weight: bold;
+  color: #f8d7c8;
+}
+
+.eventosPt2 {
+  font-family: "Montserrat";
+  margin: auto;
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+  color: #f8d7c8;
 }
 
 p {
@@ -330,6 +385,10 @@ p {
   background-color: #2d2d2d;
   border-radius: 2%;
   box-shadow: -10px -10px 9px -1px #000000;
+}
+
+.parrafoNH {
+  line-height: 35px;
 }
 
 @font-face {

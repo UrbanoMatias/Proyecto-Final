@@ -1,0 +1,12 @@
+.banner {
+    margin-bottom: 100px;
+    width: 100%;
+    img {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .banner {
+        margin-bottom: 50px;
+    }
+}
